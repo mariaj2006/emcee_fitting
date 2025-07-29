@@ -13,7 +13,7 @@
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 
 . ~/.bashrc
-module load python
+#module load python
 conda activate emcee_fitting
 
 python3 O3_1comp.py $SLURM_ARRAY_TASK_ID
