@@ -16,7 +16,6 @@ module load python
 conda activate emcee_fitting
 
 python3 O3_1comp.py $SLURM_ARRAY_TASK_ID
-Collapse
 
 
 
